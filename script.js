@@ -2,7 +2,6 @@ const container = document.getElementById('img_container');
 const loader = document.getElementById('loader');
 const apiUrl = 'http://localhost:9090/nasa-photos';
 
-/* Função auxiliar pra setar os attrs nos elem DOM */
 function setAttributes(element, attributes) {
 	for (const key in attributes) {
 		element.setAttribute(key, attributes[key]);
